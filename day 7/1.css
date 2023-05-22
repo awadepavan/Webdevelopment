@@ -1,0 +1,24 @@
+.back{
+    background-image: url(to-do-list-apps.png);
+    color: black; 
+    font-size: x-large;
+    height: 100vh;
+    
+
+}
+
+
+.backgroup{
+
+  
+    height: 300vh;
+    width: 1500px;
+
+}
+
+
+.mainbody{
+    height: 500vh;
+    width: 100px;
+}
+

@@ -1,0 +1,16 @@
+.container{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+.pagecontainer{
+    height: 1050px;
+    width: 500px;
+    margin: 50px auto;
+   
+  
+   box-shadow: 5px 5px 5px 5px  #54585d33 ;
+}

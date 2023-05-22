@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="2.js"></script>
+  </head>
+  <body>
+    <input id="messageId1" type="text" placeholder="" />
+
+    <input
+      class="btn-style"
+      type="button"
+      value="Send Message"
+      onclick="addNewMessage(false)"
+    />
+    <input
+      class="btn-style"
+      type="button"
+      value="Reply Message"
+      onclick="addNewMessage(true)"
+    />
+
+    <hr />
+    <div id="divid1">
+      <div class="message-style"></div>
+    </div>
+  </body>
+</html>

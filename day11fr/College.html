@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="student.js"></script>
+  </head>
+  <body>
+    <div style="margin: 20px">
+      <input id="roll" type="text" placeholder="Enter the rollNumber" />
+      <br />
+      <input id="name" type="text" placeholder="Enter name" />
+      <br />
+      <input id="div" type="text" placeholder="Enter division" />
+      <br />
+      <input id="branch" type="text" placeholder="Enter Branch" />
+    </div>
+    <div>
+      <input id="addstu" type="button" value="Register" onclick="addstudent()" />
+      <input type="button" value="update" onclick="updatestudent()" />
+    </div>
+    <br />
+    <div>
+      <input id="roll2" type="text" placeholder="Enter rollNumber" />
+      <input type="button" value="Delete" onclick="deletestudent()" />
+      <input type="button" value="Find" onclick="Findstudent()" />
+    </div>
+    <br />
+    <div>
+      <input  type="button" value="GetAll" onclick="GetStudent()" />
+      <div id="parent"><h1></h1>
+    </div>
+  </body>
+</html>
